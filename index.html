@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Calculadora</title>
+</head>
+<body>
+  <div id="calc">
+    <div id="visor"></div>
+    <div id="btns">
+      <button class="btn" value="1" id="um" onclick="fAddNum(this)">1</button>
+      <button class="btn" value="2" id="dois"  onclick="fAddNum(this)">2</button>
+      <button class="btn" value="3" id="tres"  onclick="fAddNum(this)">3</button>
+      <button class="btn" value="4" id="quatro" onclick="fAddNum(this)">4</button>
+      <button class="btn" value="5" id="cinco"  onclick="fAddNum(this)">5</button>
+      <button class="btn" value="6" id="seis"  onclick="fAddNum(this)">6</button>
+      <button class="btn" value="7" id="sete"  onclick="fAddNum(this)">7</button>
+      <button class="btn" value="8" id="oito"  onclick="fAddNum(this)">8</button>
+      <button class="btn" value="9" id="nove"  onclick="fAddNum(this)">9</button>
+      <button class="btn" value="0" id="zero"  onclick="fAddNum(this)">0</button>
+      <button class="btn" value=" " id="apagar"  onclick="fApag()">C</button>
+      <button class="btn" value="-" id="menos" onclick="fAddNum(this)">-</button>
+      <button class="btn" value="+" id="mais" onclick="fAddNum(this)">+</button>
+      <button class="btn" value="/" id="dividir" onclick="fAddNum(this)">/</button>
+      <button class="btn" value="*" id="mult" onclick="fAddNum(this)">x</button>
+      <button class="btn" value="=" id="igual" onclick="fIgual()">Enter</button>
+    </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
