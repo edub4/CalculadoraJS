@@ -2,23 +2,23 @@ Este projeto é uma calculadora funcional desenvolvida com HTML, CSS e JavaScrip
 
 ✨ Funcionalidades
 
-Inserção de números e operadores
+ - Inserção de números e operadores
 
-Cálculo automático ao clicar em "="
+ - Cálculo automático ao clicar em "Enter"
 
-Botão C para limpar o visor
+ - Botão "C" para limpar o visor
 
-Sistema baseado em manipulação dinâmica do DOM
+ - Sistema baseado em manipulação dinâmica do DOM
 
-Layout simples e fácil de personalizar
+ - Layout simples e fácil de personalizar
 
 🛠 Tecnologias usadas
 
-HTML5
+ - HTML5
 
-CSS3
+ - CSS3
 
-JavaScript Vanilla (sem frameworks)
+ - JavaScript Vanilla (sem frameworks)
 
 🚀 Como usar
 
